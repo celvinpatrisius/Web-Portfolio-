@@ -1,0 +1,30 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+#Project {
+  background-color: rgb(200, 206, 231);
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: rgb(200, 206, 231);
+}
+
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(73, 73, 73); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid rgb(255, 208, 0); /* creates padding around scroll thumb */
+}
